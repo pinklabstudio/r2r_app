@@ -20,6 +20,6 @@ class MultiSpawning(Node):
     
 def main(args=None):
     rp.init(args=args)
-    multi_spwan = MultiSpawning()
-    rp.spin(multi_spwan)
+    multi_spawn = MultiSpawning()
+    rp.spin(multi_spawn)
     rp.shutdown()
