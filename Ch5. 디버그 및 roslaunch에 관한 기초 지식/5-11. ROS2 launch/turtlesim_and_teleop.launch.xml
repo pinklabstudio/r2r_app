@@ -1,0 +1,7 @@
+<?xml version='1.0'?>
+
+<launch>
+    <node pkg="turtlesim" exec="turtlesim_node" namespace="turtlesim" output="screen"/>
+    <node pkg="my_first_package" exec="my_publisher"
+                namespace="pub_cmd_vel" output='screen'/>
+</launch>
